@@ -11,8 +11,8 @@ body{
     --accent1-color:#000080; 
     --accent2-color:#87CEEB;
 
-    --heading-font: font-family, serif;
-    --paragraph-font: font-family, serif;
+    --heading-font: Arial, serif;
+    --paragraph-font: Arial, serif;
 
     --nav-background-color:#6699CC ;
     --nav-link-color: #4682B4 ;
