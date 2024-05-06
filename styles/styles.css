@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
 body{
     margin: 0;
 }
@@ -55,4 +61,30 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/*class Selectors*/
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(6, 82, 245, 0.2);
+    padding: 1rem;
+    background-color: rgba(34, 12, 233, 0.2);
+    color: #000;
+}
+
+aside {
+    width: 20em;
+    text-align: center;
+}
+
+main img {
+    float: right;
+    clear: right;
+}
+
+aside h2 {
+    position: relative;
+    top: 2px;
+    left: 3px;
 }
