@@ -67,9 +67,9 @@ footer {
 
 .box {
     margin: 1rem;
-    border: 1px solid rgba(6, 82, 245, 0.2);
+    border: 1px solid rgba(39, 127, 245, 0.8);
     padding: 1rem;
-    background-color: rgba(34, 12, 233, 0.2);
+    background-color: #f2f2f2;
     color: #000;
 }
 
@@ -86,6 +86,6 @@ main img {
 
 aside h2 {
     position: absolute;
-    top: 2px;
-    left: 3px;
+    top: 10px;
+    left: 13px;
 }
