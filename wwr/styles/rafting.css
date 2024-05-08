@@ -35,7 +35,8 @@ body{
 nav a{
     text-decoration: none;
 }
-nav a:visited {
+
+a:visited {
     color: inherit;
 }
 
