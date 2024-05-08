@@ -32,14 +32,16 @@ body{
     height: auto;
 }
 
-nav a{
+nav a, a:visited {
+    color: inherit;
+    cursor: pointer;
     text-decoration: none;
 }
 
-a:visited {
+/*a:visited {
     color: inherit;
     cursor: pointer;
-}
+}*/
 
 h1{
  position: absolute;
