@@ -38,6 +38,7 @@ nav a{
 
 a:visited {
     color: inherit;
+    cursor: pointer;
 }
 
 h1{
