@@ -66,10 +66,10 @@ article {
 
 
 .hero article img {
-    background-color: var(--secondary-color);
-    width: 25%;
-    border-color:var(--primary-color) ;
-    box-sizing: border-box;
+  background-color: var(--accent1-color);
+  width: 25%;
+  border-color:var(--primary-color) ;
+  box-sizing: border-box;
 
 }
 
