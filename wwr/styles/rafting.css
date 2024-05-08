@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/cs0s2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+ /* last alteration */
 
 *{
     margin: 0;
@@ -10,8 +11,8 @@
     --accent1-color:#000080; 
     --accent2-color:#87CEEB;
 
-    --heading-font: Arial;
-    --paragraph-font: Arial;
+    --heading-font:"Poetsen One", sans-serif; /* last alteration too*/
+    --paragraph-font:"Poetsen One", sans-serif; /* last alteration too */
 
     --nav-background-color:#6699CC ;
     --nav-link-color: #4682B4 ;
