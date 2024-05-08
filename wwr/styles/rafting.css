@@ -35,6 +35,9 @@ body{
 nav a{
     text-decoration: none;
 }
+a:visited {
+    color: inherit;
+}
 
 h1{
  position: absolute;
