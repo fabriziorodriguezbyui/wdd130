@@ -32,9 +32,8 @@ body{
     height: auto;
 }
 
-nav a, a:visited {
+nav a {
     color: inherit;
-    cursor: pointer;
     text-decoration: none;
 }
 
