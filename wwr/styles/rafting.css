@@ -119,9 +119,6 @@ padding: 2px;
 background-color: #000080;
 border-radius: 10px;
 box-shadow: -3px -3px 2px var(#000080);
-transform: scale(1.1);
-
-    
 }
 
 .teste {
@@ -134,9 +131,7 @@ transform: scale(1.1);
     position: relative;
     margin: 15px;
     padding: 15px;
-    border: #000080;
     width: 250px;
-    max-height: 700;
     object-fit: contain;
 }
 
