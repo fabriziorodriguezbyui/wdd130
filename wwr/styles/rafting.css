@@ -118,7 +118,8 @@ margin: 1px;
 padding: 2px;
 background-color: #000080;
 border-radius: 10px;
-box-shadow: -3px -3px 2px var(#000080);
+box-shadow: -3px -3px 2px #000080;
+transform: scale(1.1);
 }
 
 .teste {
