@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML and CSS Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Basic HTML and CSS Quiz</h1>
+        <form>
+            <div class="form-group">
+                <label for="q1">1. What does the acronym CSS stand for?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="form-group">
+                <label for="q2">2. How are id and class attributes selected in CSS?</label>
+                <textarea id="q2" name="q2"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="q3">3. Which of the following CSS properties is used to change the background color of an element?</label>
+                <select id="q3" name="q3">
+                    <option value="Choose">Choose One ...</option>
+                    <option value="1">color</option>
+                    <option value="2">background-color</option>
+                    <option value="3">border-color</option>
+                </select>
+                <div class="form-group">
+                    <label for="q4">4. Which HTML element is used to define the largest heading?</label>
+                    <select id="q4" name="q4">
+                        <option value="Choose">Choose One ...</option>
+                        <option value="1">&lt;h1&gt;</option>
+                        <option value="2">&lt;h6&gt;</option>
+                        <option value="3">&lt;header&gt;</option>
+                        <option value="4">&lt;head&gt;</option>
+                    </select>
+            </div>
+            <div class="form-group">
+                <label for="q5">4. How many columns are created with the following CSS Grid declaration?</label>
+                <div class="code-snippet">grid-template-columns: 100px 1fr 2fr;</div>
+                <input type="text" id="q5" name="q5">
+            </div>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </div>
+</body>
+</html>
