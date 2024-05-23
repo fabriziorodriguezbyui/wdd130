@@ -150,9 +150,11 @@ figcaption, figure{
 }
 .history {
     margin: 150px;
+    text-align: center;
+    padding: 5%;
 }
 section {
-    padding: 15px;
+    padding: 25px;
     background-color: var(--accent2-color); /* another alteration */
     box-shadow: 0 0 30px var(--primary-color);
     box-sizing: border-box;
@@ -161,7 +163,7 @@ section {
 
 section h2 {
     font-size: 3rem;
-    align-items: center;
+    text-align: center;
 }
 
 h2 {
