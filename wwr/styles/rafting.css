@@ -144,10 +144,10 @@ transform: scale(1.1);
     transition: 0.3s ease;
 }
 
-figcaption, h2{
-    padding: 20px;
-    font-size: 2rem;
-    text-align: center;
+figcaption, h2, figure{
+    padding: 10%;
+    font-size: 1rem;
+    justify-content: center;
 }
 .history {
     margin: 150px;
