@@ -146,7 +146,8 @@ transform: scale(1.1);
 figcaption, figure{
     margin-left: 20px;
     font-size: 1rem;
-    justify-content: center;
+    text-align: center;
+
 }
 .history {
     margin: 150px;
