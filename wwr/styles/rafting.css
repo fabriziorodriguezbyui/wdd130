@@ -132,10 +132,9 @@ transform: scale(1.1);
 }
 
 .teste img {
-    position: relative;
+   position: relative;
     margin: 15px;
-    padding: 15px;
-    width: 250px;
+    width: 80%;
     object-fit: contain;
 }
 
