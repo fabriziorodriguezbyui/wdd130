@@ -132,7 +132,7 @@ transform: scale(1.1);
 }
 
 .teste img {
-   position: relative;
+    position: relative;
     margin: 15px;
     width: 80%;
     object-fit: contain;
@@ -143,8 +143,8 @@ transform: scale(1.1);
     transition: 0.3s ease;
 }
 
-figcaption, h2, figure{
-    padding: 10%;
+figcaption, figure{
+    margin-left: 20px;
     font-size: 1rem;
     justify-content: center;
 }
@@ -161,7 +161,14 @@ section {
 
 section h2 {
     font-size: 3rem;
+    align-items: center;
+}
+
+h2 {
+    place-items: center;
 }
 p {
     font-size: 1.5rem;
 }
+
+
