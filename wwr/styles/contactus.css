@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+ /* last alteration */
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+:root{
+    --primary-color:#6699CC;
+    --secondary-color:#4682B4;
+    --accent1-color: white; 
+    --accent2-color:#46abb4;
+
+    --heading-font:"Poetsen One", sans-serif; /* last alteration too*/
+    --paragraph-font:"Poetsen One", sans-serif; /* last alteration too */
+
+    --nav-background-color:#6699CC ;
+    --nav-link-color: #4682B4 ;
+    --nav-hover-link-color:#87CEEB ;
+    --nav-hover-backgraund-color:#000080;
+    --tex-color: white;
+}
+
+body{
+    font-family: var(--heading-font);
+    color: var(--accent1-color); /* another alteration */
+}
+
+
+nav a {
+    text-decoration: none;
+}
+
+.sociallinks {   /*footer*/
+    display: flex;
+    background-color: #46abb4;
+    justify-items: center;
+    justify-content: space-evenly;
+
+}
+.sociallinks a {
+    margin: 10px;
+} 
+
+.sociallinks img {
+    width: 40px;
+    
+}
+
+footer p {
+    background-color: #46abb4;
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+footer p {
+    color: white;
+}
+header {
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    background-color: #46abb4;
+}
+
+
+
+header nav a:hover {
+    font-size: 2rem;
+    color: var(--accent1-color);
+}
+
+nav a {
+    color: white;
+}
+
+header img {
+display:flex;
+margin: 1px;
+padding: 2px;
+background-color: #46abb4;
+border-radius: 10px;
+box-shadow: -3px -3px 2px #000080;
+transform: scale(1.1);
+}
+
+h2  {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+
+}
+
+
+p {
+    color: #4682B4;
+    text-align: center;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section, .employee {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 2;
+    gap: 25px;
+    margin-top: 40px;
+    padding: 2%;
+    
+}
+
+section img {
+    width:300px;
+    height:auto;
+}
+
+img:hover {
+    transform: scale(1.2);
+    transition:  0.03s ease;
+    border: 25px;
+    box-shadow:0 0 30px darkolivegreen ;
+}
