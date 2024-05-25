@@ -249,9 +249,14 @@ main section {
 
 h2 {
     text-align: center;
+    color: white;
+ 
 }
 
 footer p {
     color: white;
 }
 
+form h2 {
+    color: white;
+}
