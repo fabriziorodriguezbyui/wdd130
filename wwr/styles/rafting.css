@@ -165,13 +165,14 @@ section {
 section h2 {
     font-size: 3rem;
     text-align: center;
+    place-items: center;
+    color: dodgerblue;
 }
 
-h2 {
-    place-items: center;
-}
+
 p {
     font-size: 1.5rem;
+    color: dodgerblue;
 }
 
 input {
@@ -240,5 +241,17 @@ figcaption {
 .adry, .fabrizio, .daniel {
     border-radius: 15px;
     box-shadow: 5px 5px 2px 2px rgb(0, 0, 0, 0.5);
+}
+
+main section {
+    background-color: whitesmoke;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer p {
+    color: white;
 }
 
