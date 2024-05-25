@@ -260,3 +260,17 @@ footer p {
 form h2 {
     color: white;
 }
+
+.first-column {
+    color: dodgerblue;
+    padding: 15px;
+}
+
+#companyinfo {
+    position: static;
+    color: dodgerblue;
+    padding:15px ;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+}
