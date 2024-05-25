@@ -174,4 +174,45 @@ p {
     font-size: 1.5rem;
 }
 
+input {
+    margin: 5px;
+    padding: 10px;
+}
+
+textarea {
+    border-top: 5%;
+    width: 527px;
+    height: 162px;
+}
+
+.teste {
+    width: 500px;
+    height: 10%;
+}
+
+button {
+    background-color: #4682B4;
+    color: white;
+    padding: 10px;
+    width: 50%;
+}
+
+.form-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--accent2-color);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+
+
+
+} 
+
+.form {
+    box-shadow: 5px 5px 2px 2px rgb(0, 0, 0, 0.5);
+}
 
