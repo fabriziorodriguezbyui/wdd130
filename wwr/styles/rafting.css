@@ -218,6 +218,8 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 25px;  
+    margin-right: 25px; 
 
 }
 
@@ -236,6 +238,8 @@ figcaption {
 
 .employee {
     background-color: whitesmoke;
+    margin-left: 25px;  
+    margin-right: 25px; 
 }
 
 .adrianny, .fabrizio, .daniel {
@@ -270,7 +274,6 @@ form h2 {
     position: static;
     color: dodgerblue;
     padding:15px ;
-    width: 100%;
     text-align: center;
     font-size: 3rem;
 }
