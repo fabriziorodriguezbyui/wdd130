@@ -96,6 +96,10 @@ footer p {
 
 
 }
+
+footer {
+    box-shadow: 0px 2px 2px 0px gray;
+}
 header {
     font-size: 1.5rem;
     display: grid;
@@ -103,8 +107,7 @@ header {
     align-items: center;
     background-color: #46abb4;
     box-shadow:2px 0px 0px 2px gray;
-    height: 70px;
- 
+    height: 60px;
 }
 
 
@@ -208,7 +211,7 @@ button {
     background-color: var(--accent2-color);
     margin-left: 25%;
     margin-right: 25%;
-    margin-top: 5%;
+    margin-top: 25px;
     margin-bottom: 5%;
     border-radius: 15px;
     box-shadow: 5px 5px 2px 2px rgb(0, 0, 0, 0.5);
@@ -221,8 +224,10 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 25px;  
-    margin-right: 25px; 
+    margin-left: 25px;  /* Adicionar */
+    margin-right: 25px; /* adicionar */
+    margin-bottom: 25px;
+    margin-top: 10px;
 
 }
 
@@ -241,11 +246,12 @@ figcaption {
 
 .employee {
     background-color: whitesmoke;
-    margin-left: 25px;  
-    margin-right: 25px; 
+    margin-left: 25px;  /* Adicionar */
+    margin-right: 25px; /* adicionar */
+
 }
 
-.adrianny, .fabrizio, .daniel {
+.adryanny, .fabrizio, .daniel {
     border-radius: 15px;
     box-shadow: 5px 5px 2px 2px rgb(0, 0, 0, 0.5);
 }
@@ -256,8 +262,6 @@ main section {
 
 h2 {
     text-align: center;
-    color: white;
- 
 }
 
 footer p {
@@ -277,6 +281,7 @@ form h2 {
     position: static;
     color: dodgerblue;
     padding:15px ;
+    width: 100%;
     text-align: center;
     font-size: 3rem;
 }
