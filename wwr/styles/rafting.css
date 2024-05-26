@@ -64,7 +64,7 @@ article {
 
 
 .hero article img {
-  background-color: var(#46abb4);
+  background-color: #46abb4;
   width: 25%;
   border-color:var(--primary-color) ;
   box-sizing: border-box;
@@ -186,7 +186,7 @@ input {
 }
 
 textarea {
-    border-top: 5%;
+    border-top: 25px;
     width: 527px;
     height: 162px;
 }
